@@ -1,0 +1,143 @@
+/* Base Styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 65.5%;
+    font-family: poppins;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: black;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.6rem;
+    color: black;
+    text-align: center;
+}
+p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    height: auto;
+}
+.logo p {
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin-bottom: 1.6rem;
+}
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 100px;
+}
+
+
+nav ul li a:hover {
+    color: rgb(71, 17, 122);
+    transition: .5s ease-in-out;
+}
+
+input {
+    font-size: 1.8rem;
+}
+
+  nav ul {
+      list-style: none;
+      margin: 0;
+  }
+  nav > ul > li {
+      position: relative;
+      float: left;
+  }
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+      padding: 1.5rem 1rem;
+      display: block;
+      height: 10%;
+      margin: 0;
+    }
+    nav ul ul {
+        position: absolute;
+        padding: 0;
+        display: none;
+        top: 100%;
+        left: 0;
+    }
+    nav ul li:hover > ul {
+        display: block;
+    }
+    input[type=submit] {
+        color: black;
+        padding: 15px 30px;
+        display: inline-block;
+        font-size: 1.2rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        background: transparent;
+        cursor: pointer;
+    }
+    main {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(../Image/back.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+    }
+    #paragraph {
+        font-size: 1.8rem;
+        font-weight: 100;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .content {
+        position: relative;
+        top: 50%;
+        left: 0;
+        text-align: center;
+    }
+
+    .first {
+        font-weight: 800;
+        color: whitesmoke;
+        font-size: 4.2rem;
+    }
+
+    #first {
+        font-size: 1.2rem;
+        margin: 8px 25%;
+        color: whitesmoke;
+    }
+
+    #sign-in {
+        color: white;
+        /* position: absolute; */
+        padding: 10px 26px;
+        display: inline-block;
+        margin: 2rem 0;
+        border: none;
+        font-size: 1.2rem;
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 4px;
+    }
